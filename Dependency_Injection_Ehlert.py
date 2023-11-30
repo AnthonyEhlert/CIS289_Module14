@@ -39,3 +39,4 @@ crossfit_kids_cert = Certification('CrossFit Kids')
 morning_coach = CrossFitCoach('Tony Ehlert', 37, crossfit_kids_cert)
 
 print(morning_coach)
+print(morning_coach.encourage_client())
